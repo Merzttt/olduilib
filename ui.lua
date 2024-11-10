@@ -120,7 +120,7 @@
  HubName.BackgroundTransparency = 1.000
  HubName.Size = UDim2.new(0, 168, 0, 43)
  HubName.Font = Enum.Font.GothamBold
- HubName.Text = text
+ HubName.Text = "VANTA" or text
  HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
  HubName.TextSize = 20.000
  
