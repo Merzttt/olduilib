@@ -76,7 +76,7 @@
  Neverlose.Parent = game.CoreGui
  Neverlose.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  
- function NVL:Window(text)
+ function NVL:Window()
     local FirstTab = false
  
     local TabHolder = Instance.new("Frame")
@@ -120,7 +120,7 @@
  HubName.BackgroundTransparency = 1.000
  HubName.Size = UDim2.new(0, 168, 0, 43)
  HubName.Font = Enum.Font.GothamBold
- HubName.Text = "VANTA" or text
+ HubName.Text = "VANTA"
  HubName.TextColor3 = Color3.fromRGB(255, 255, 255)
  HubName.TextSize = 20.000
  
